@@ -1,8 +1,8 @@
 # PRM800K: A Process Supervision Dataset
 
-#### [[Blog Post]](https://openai.com/research/improving-mathematical-reasoning-with-process-supervision)
+#### [[Blog Post]](https://openai.com/research/improving-mathematical-reasoning-with-process-supervision) [[Paper]](https://arxiv.org/abs/2305.20050)
 
-This repository accompanies the paper [Let's Verify Step by Step](https://openai.com/research/improving-mathematical-reasoning-with-process-supervision) and presents the PRM800K dataset introduced there. PRM800K is a process supervision dataset containing 800,000 step-level correctness labels for model-generated solutions to problems from the [MATH](https://github.com/hendrycks/math) dataset. More information on PRM800K and the project can be found in the paper.
+This repository accompanies the paper [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) and presents the PRM800K dataset introduced there. PRM800K is a process supervision dataset containing 800,000 step-level correctness labels for model-generated solutions to problems from the [MATH](https://github.com/hendrycks/math) dataset. More information on PRM800K and the project can be found in the paper.
 
 We are releasing the raw labels as well as the instructions we gave labelers during phase 1 and phase 2 of the project. Example labels can be seen in the image below.
 
@@ -224,4 +224,11 @@ python eval/eval.py --method orm
 
 Please use the below BibTeX entry to cite this dataset:
 
-COMING SOON
+```
+@article{lightman2023lets,
+      title={Let's Verify Step by Step}, 
+      author={Lightman, Hunter and Kosaraju, Vineet and Burda, Yura and Edwards, Harri and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl},
+      journal={arXiv preprint arXiv:2305.20050},
+      year={2023}
+}
+```
